@@ -1,6 +1,43 @@
-.center {
+
+.center {  
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  p {
+    color:rgb(9, 36, 21);
+    font-size:200%;
+    font-family:courier;
+  }
+
+  li{
+    font-size:180%;
+    font-family:courier;
+  }
+
+  #back{
+    color:rgb(3, 21, 126);
+    text-align:center;
+    font-size:300%;
+  } 
+
+  a:hover {
+    color: hotpink;
+  }
+
+  li.intro::first-letter {
+    color: #120368;
+    font-size: 130%;
+  } 
+
+  ::marker { 
+    color: rgb(23, 24, 87);
+    font-size: 23px;
+  }
+
+  ::selection {
+    color: rgb(255, 251, 0);
+    background: rgb(5, 5, 5);
   }
